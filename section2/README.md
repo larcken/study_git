@@ -42,7 +42,7 @@ Git을 공부할 때는 CLI 위주로 실습해서 명령어들과 동작 방식
   - .gitignore 파일에 secret.yaml 파일을 목록에 추가
   - git status를 통해 상태 확인
 - 형식 (https://git-scm.com/docs/gitignore)
-`
+<pre> ```
 # 이렇게 #를 사용해서 주석
 
 # 모든 file.c
@@ -69,5 +69,5 @@ logs/*.c
 
 # logs 폴더 바로 안, 또는 그 안의 다른 폴더(들) 안의 debug.log
 logs/**/debug.log
-`
+``` </pre>
 
