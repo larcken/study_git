@@ -1,6 +1,7 @@
 # Git & GitHub 강의 정리
 
 제대로 파는 Git &amp; GitHub - by 얄코(Yalco) 강좌 듣고 정리
+
 Git과 GitHub를 처음 접하는 분부터 실무에서 협업 도구로 활용하고 싶은 분들을 위한 체계적인 입문 강의입니다. 실습 중심으로 CLI, GUI, GitHub 활용법까지 다룹니다.
 
 ---
