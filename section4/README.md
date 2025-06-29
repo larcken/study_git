@@ -100,5 +100,20 @@
   - new-teams 브랜치 삭제
 
 ### 4. 충돌 해결하기
+- merge 충돌 해결하기
+  - 당장 충돌 해결이 어려울 경우 아래 명령어로 merge 중단
+    - git merge --abort
+  - 해결 가능 시 충돌 부분을 수정한 뒤 git add ., git commit으로 병합 완료
 
-### 5. 
+- rebase 충돌 해결하기
+  - conflict-2에서 git rebase main로 리베이스 시도하면 충돌 발생
+    - 오류 메시지와 git status 확인
+    - VS Code에서 해당 부분 확인
+  - 당장 충돌 해결이 어려울 경우 아래 명령어로 rebase 중단
+    - git rebase --abort
+  - 해결 가능 시
+    - 충돌 부분을 수정한 뒤 git add .
+    - 아래 명령어로 계속
+      - git rebase --continue
+    - 돌이 모두 해결될 때까지 반복
+  - main에서 git merge conflict-2로 마무리
