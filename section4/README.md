@@ -78,6 +78,26 @@
   - 이미 팀원과 공유된 커밋들에 대해서는 사용하지 않는 것이 좋습니다.
 
 ### 3. branch 합치기 실습
+- merge로 합치기
+  - add-coach 브랜치를 main 브랜치로 merge
+    - main 브랜치로 이동
+    - 아래의 명령어로 병합
+      - git merge add-coach
+- merge는 reset으로 되돌리기 가능
+  - merge도 하나의 커밋
+  - merge하기 전 해당 브랜치의 마지막 시점으로
+- 병합된 브랜치는 삭제
+  - 삭제 전 소스트리에서 add-coach 위치 확인
+  - git branch -d add-coach
+- rebase로 합치기
+  - new-teams 브랜치를 main 브랜치로 rebase
+  - new-teams 브랜치로 이동
+    - merge때와는 반대!
+  - 아래의 명령어로 병합
+    - git rebase main
+  - main 브랜치로 이동 후 아래 명령어로 new-teams의 시점으로 fast-forward
+    - git merge new-teams
+  - new-teams 브랜치 삭제
 
 ### 4. 충돌 해결하기
 
