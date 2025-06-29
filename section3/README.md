@@ -32,4 +32,10 @@ commit
     - git reset --hard
 - revert
   - git revert (되돌릴 커밋 해시)
-  
+  - conflict 가 발생하는 상황이 있을 수 있음
+    - git add/rm 으로 처리
+    - git revert --contivue
+  - 커밋하지 않고 revert 하기
+    - git revert -no-commit (되돌릴 커밋 해시)
+      - 원하는 다른 작업을 추가한 다음 함께 커밋
+      - 취소하려면 git reset --hard
