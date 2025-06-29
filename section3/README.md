@@ -24,4 +24,12 @@ commit
 - Git에서 과거로 돌아가는 두 방식
   - reset : 원하는 시점으로 돌아간 뒤 이후 내역들을 지웁니다.
   - revert : 되돌리기 원하는 시점의 커밋을 거꾸로 실행합니다.
+- reset
+  - git log
+    - 되돌아갈 시점의 커밋 해시값 복사
+  - git reset --hard (돌아갈 커밋 해시)
+  - 마지막 커밋한 시점으로 복원
+    - git reset --hard
+- revert
+  - git revert (되돌릴 커밋 해시)
   
