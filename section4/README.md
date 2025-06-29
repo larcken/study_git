@@ -29,7 +29,7 @@
     - 커밋 메시지: Add Olivia to Leopards
   - Panthers의 members에 Freddie 추가
     - 커밋 메시지: Add Freddie to Panthers
-  ⭐️ add-coach 브랜치로 이동하여 해당 코드들 확인
+  - add-coach 브랜치로 이동하여 해당 코드들 확인
 - add-coach 브랜치
   - Tigers의 매니저 정보 아래 coach: Grace 추가
     - 커밋 메시지: Add Coach Grace to Tigers
@@ -68,8 +68,14 @@
 - 여러 브랜치의 내역 편리하게 보기
   - git log --all --decorate --oneline --graph
 
-
 ### 2. branch를 합치는 두 가지 방법
+서로 다른 브랜치를 합치는 두 방식
+- merge : 두 브랜치를 한 커밋에 이어붙입니다.
+  - 브랜치 사용내역을 남길 필요가 있을 때 적합한 방식입니다.
+  - 다른 형태의 merge에 대해서도 이후 다루게 될 것입니다.
+- rebase : 브랜치를 다른 브랜치에 이어붙입니다.
+  - 한 줄로 깔끔히 정리된 내역을 유지하기 원할 때 적합합니다.
+  - 이미 팀원과 공유된 커밋들에 대해서는 사용하지 않는 것이 좋습니다.
 
 ### 3. branch 합치기 실습
 
