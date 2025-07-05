@@ -117,3 +117,5 @@
       - git rebase --continue
     - 돌이 모두 해결될 때까지 반복
   - main에서 git merge conflict-2로 마무리
+
+- branch 는 제때 지워줘야 혼란스럽지 않다.
